@@ -217,7 +217,7 @@ export function Navigation() {
 
           {/* Desktop Navigation */}
           <nav className="flex items-center flex-1 justify-between ml-6 xl:ml-8">
-            <div className="border-l border-gray-600 pl-6 xl:pl-8 flex-1 min-w-0">
+            <div className="border-l border-gray-600 h-12 pl-6 xl:pl-8 flex-1 min-w-0 flex items-center">
               <ul className="flex space-x-4 xl:space-x-8 justify-center">
                 {navItems.map((item) => (
                   <li key={item.name} className="relative group">
@@ -266,7 +266,7 @@ export function Navigation() {
             </div>
 
             {/* Desktop Status Panel */}
-            <div className="border-l border-gray-600 pl-6 xl:pl-8 flex items-center space-x-3 xl:space-x-4 flex-shrink-0">
+            <div className="border-l border-gray-600 h-12 pl-6 xl:pl-8 flex items-center space-x-3 xl:space-x-4 flex-shrink-0">
               <div className="bg-[#0d0d30] border border-[#1a1a4a] rounded-lg px-4 xl:px-6 py-2 xl:py-3 min-w-[200px] xl:min-w-[240px] flex items-center justify-center">
                 <ServerStatus showRefresh={false} />
               </div>
