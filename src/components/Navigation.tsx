@@ -256,7 +256,7 @@ export function Navigation() {
                         </div>
                       </div>
                     ) : (
-                      <Link href={item.href} className="text-white hover:text-gray-300 text-sm xl:text-base font-semibold py-2 px-1 tracking-wide transition-colors whitespace-nowrap">
+                      <Link href={item.href} className="text-white hover:text-gray-300 text-sm xl:text-base font-semibold py-2 px-1 tracking-wide transition-colors whitespace-nowrap flex items-center">
                         {item.name}
                       </Link>
                     )}

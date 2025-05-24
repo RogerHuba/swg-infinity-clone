@@ -68,9 +68,6 @@ export function ServerInfoFooter() {
           {/* About */}
           <div>
             <h3 className="text-white font-semibold text-lg mb-4">About SWG Infinity</h3>
-            <p className="text-gray-300 text-sm mb-4">
-              The premier Pre-CU Star Wars Galaxies server experience. Join our thriving community and begin your saga in a galaxy far, far away.
-            </p>
             <div className="space-y-2">
               <Link href="/about-infinity/vision-and-mantras" className="block text-gray-300 hover:text-white text-sm transition-colors">
                 Our Vision
@@ -88,7 +85,7 @@ export function ServerInfoFooter() {
         {/* Bottom Bar */}
         <div className="mt-8 pt-8 border-t border-[#1a1a4a] flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-400 text-sm mb-4 md:mb-0">
-            <p>&copy; 2024 SWG Infinity. Star Wars Galaxies is a trademark of Sony Online Entertainment.</p>
+            <p>&copy; 2025 SWG Infinity. Star Wars Galaxies is a trademark of Sony Online Entertainment.</p>
           </div>
           <div className="flex items-center space-x-4">
             <Link href="/about-infinity/roadmap" className="text-gray-400 hover:text-white text-sm transition-colors flex items-center">
